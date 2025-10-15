@@ -1,0 +1,38 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fafafa;
+}
+.navbar {
+  background: #fdd835;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
